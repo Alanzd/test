@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 export default function LoginForm ({handleSubmit, ...props}) {
   return (
     <Togglable buttonLabel='Show Login'>
-      <form onSubmit={handleSubmit}>
+      <form id='form-login-button' onSubmit={handleSubmit}>
         <div>
           <input
             type='text'
